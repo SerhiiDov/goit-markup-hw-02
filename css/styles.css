@@ -26,7 +26,7 @@ ul {
   color: #4d5ae5;
 }
 
-.header-nav {
+.header-navigation {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -34,7 +34,7 @@ ul {
   color: #2e2f42;
 }
 
-.header-nav li a {
+.header-navigation .link {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -42,16 +42,16 @@ ul {
   color: #2e2f42;
 }
 
-address a {
+address .link {
   font-style: normal;
   color: #434455;
 }
 
-.main-page-title {
+.main-page {
   background-color: #2e2f42;
 }
 
-h1 {
+.main-page-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -61,7 +61,7 @@ h1 {
   letter-spacing: 0.02em;
 }
 
-.main-page-title > .order-button {
+.main-page-order-button {
   border-radius: 4px;
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -75,7 +75,10 @@ h1 {
   color: #fff;
 }
 
-h2 {
+.solutions-item-title,
+.our-team-item-title,
+.portfolio-item-title {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -83,7 +86,16 @@ h2 {
   color: #2e2f42;
 }
 
-.text {
+.our-team-title,
+.portfolio-title,
+.our-team-item-title,
+.our-team-item-text {
+  text-align: center;
+}
+
+.solutions-item-text,
+.our-team-item-text,
+.portfolio-item-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -92,14 +104,13 @@ h2 {
   color: #434455;
 }
 
-.main-page-our-team-title,
-.main-page-portfolio-title {
+.our-team-title,
+.portfolio-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
