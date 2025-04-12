@@ -28,7 +28,8 @@ ul {
   color: #2e2f42;
 }
 
-.header-logo-web {
+.header-logo-web,
+.footer-logo-web {
   color: #4d5ae5;
 }
 
@@ -114,14 +115,7 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  color: #f4f4fd;
-}
-
-.footer-logo-web {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
