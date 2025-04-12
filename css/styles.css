@@ -38,7 +38,8 @@ ul {
   color: #2e2f42;
 }
 
-.header-navigation a:hover {
+.header-navigation a:hover,
+.header-navigation a:focus {
   color: #404bbf;
 }
 
@@ -46,7 +47,8 @@ ul {
   color: #434455;
 }
 
-.address-contacts a:hover {
+.address-contacts a:hover,
+.address-contacts a:focus {
   color: #404bbf;
 }
 
@@ -73,7 +75,8 @@ ul {
   color: #fff;
 }
 
-.baner-order-button:hover {
+.baner-order-button:hover,
+.baner-order-button:focus {
   background: #404bbf;
 }
 
