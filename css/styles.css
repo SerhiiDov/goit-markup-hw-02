@@ -39,6 +39,8 @@ ul {
 }
 
 .address-contacts a {
+  line-height: 150%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -94,7 +96,8 @@ ul {
 }
 
 .advantages-item-text,
-.our-team-item-text {
+.our-team-item-text,
+.portfolio-item-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
