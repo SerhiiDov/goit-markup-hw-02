@@ -23,6 +23,8 @@ ul {
 }
 
 .header-navigation-list a {
+  line-height: 150%;
+  letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
 }
@@ -55,6 +57,7 @@ ul {
   line-height: 107%;
   letter-spacing: 0.02em;
   color: white;
+  text-align: center;
 }
 
 .baner-order-button {
@@ -76,7 +79,7 @@ ul {
   background-color: #f4f4fd;
 }
 
-.our-team-list {
+.our-team-item-list {
   background-color: #ffffff;
 }
 
@@ -90,7 +93,8 @@ ul {
   color: #2e2f42;
 }
 
-.advantages-item-text {
+.advantages-item-text,
+.our-team-item-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -105,6 +109,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .main-footer {
